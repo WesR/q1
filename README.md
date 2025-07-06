@@ -1,6 +1,7 @@
 # Q1: Simple Local File Storage
+
+A production-grade, pip-installable Python package that offers simple local file storage backed by SQLite and optional AES-GCM encryption.\
 https://pypi.org/project/q1-storage/0.1.0/
-A production-grade, pip-installable Python package that offers simple local file storage backed by SQLite and optional AES-GCM encryption.
 
 ## Features
 
