@@ -127,7 +127,8 @@ try:
             self._gcm = AESGCM(self._key)
         
         def encrypt(self, data: bytes) -> Tuple[bytes, bytes]:
-            """Encrypt data using AES-GCM.
+            """Encrypt data using AES-GCM. 
+            TODO: (GCM with the same iv shouldn't be used with files over 64GB, those need to be chunked.)
             
             Args:
                 data: The data to encrypt
