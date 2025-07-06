@@ -2,9 +2,6 @@
 https://pypi.org/project/q1-storage/0.1.0/
 A production-grade, pip-installable Python package that offers simple local file storage backed by SQLite and optional AES-GCM encryption.
 
-Install with 
-`pip install q1-storage`
-
 ## Features
 
 - Store and retrieve files with a simple API
@@ -18,12 +15,12 @@ Install with
 ## Installation
 
 ```bash
-pip install q1
+pip install q1-storage
 ```
 
 For encryption support:
 ```bash
-pip install q1[crypto]
+pip install q1-storage[crypto]
 ```
 
 ## Quick Start
